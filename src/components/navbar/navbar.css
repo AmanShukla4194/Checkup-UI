@@ -1,0 +1,140 @@
+.navbar {
+    background-color: #fcfbfb;
+    overflow: hidden;
+    height: 95px;
+    width: 1920px;
+    padding: 10px;
+    left: calc(50% - 1920px/2);
+    top: calc(50% - 95px/2 - 492.5px);
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.08);
+
+  }
+
+  .navbar .vector {
+    position: absolute;
+    width: 47.99px;
+    height: 55.7px;
+    left: 48px;
+    top: 20.57px;
+    
+    background: #f3f8f8;
+  }
+
+  .navbar .Checkup
+  {
+    position: absolute;
+    width: 111px;
+    height: 36px;
+    left: 103px;
+    top: 30px;
+    
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height */
+    color: #28696D;
+  }
+
+  .navbar .Bell
+  {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 77.92%;
+    right: 20.53%;
+    top: 2.77%;
+    bottom: 93.87%;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* icon_gray */
+
+    border: 1px solid #C2CFE0;
+  }
+
+  .navbar .Ellipse1
+  {
+  position: absolute;
+  left: 78.79%;
+  right: 20.44%;
+  top: 2.69%;
+  bottom: 95.94%;
+
+  background: #F96D82;
+  /* white */
+
+  border: 1px solid #FFFFFF;
+  }
+ 
+.navbar .Ellipse2
+{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 57px;
+  height: 57px;
+  left: calc(50% - 57px/2 + 637.75px);
+  top: calc(50% - 57px/2 - 492.5px);
+
+  /* background: url(.png); */
+  /* White */
+
+  border: 2px solid #FFFFFF;
+  filter: drop-shadow(0px 4px 20px rgba(160, 59, 59, 0.15));
+}
+
+.navbar .Doctor
+{
+  position: absolute;
+  width: 199px;
+  height: 30px;
+  left: calc(50% - 199px/2 + 785.5px);
+  bottom: 1017px;
+
+  font-family: 'Inria Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #000000;
+
+}
+
+.details-box {
+  position: absolute;
+  width: 363px;
+  height: 984px;
+  left: 0px;
+  top: 95px;
+  
+  background: #01C6B2;
+}
+
+.details-box .rectangle
+{
+  position: absolute;
+  width: 295px;
+  height: 72px;
+  left: 34px;
+  top: 129px;
+
+  background: #FFFFFF;
+  border-radius: 24px;
+}
+
+.rectangle .appointement
+{
+  position: absolute;
+  left: 7.07%;
+  right: 95.89%;
+  top: 29.44%;
+  bottom: 83.6%;
+
+  background: #eeeaea;
+}
+
