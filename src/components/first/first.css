@@ -1,0 +1,37 @@
+.header {
+    margin-top: 100px;
+    height: 84px;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 84px;
+  }
+
+.image1{
+    margin-top: 120px;
+    text-align: center;
+    display: 'flex';
+    
+}
+.image2{
+    margin-top: 30px;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    text-align: center;
+    display: 'flex';
+}
+
+
+.footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background: #01C6B2;
+    border-radius: 20px;
+}
