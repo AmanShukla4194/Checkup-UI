@@ -1,16 +1,31 @@
 import React from 'react';
 // import Navbar from './components/navbar/Navbar'  for not doing it all separate
-import {Navbar, Sidebar, First} from './components';
+import {First,Login} from './components';
+import FullPage from './pages/FullPage'
 import './App.css'
+
+import {
+  // BrowserRouter as Router,   // already impoorted in src/index.js
+  Routes, // In new version switch is changed to Routes
+  Route,
+} from "react-router-dom"; 
+
 
 function App() {
   return (
-    <div>
-      <First/>
-      {/* <Navbar/>
-      <Sidebar/> */}
-   </div>
+    <>
+    <Routes>
+          <Route exact path="/" Component={First}>
+          </Route>
+          <Route exact path="/Login" Component={Login}>
+          </Route>
+          <Route exact path="/FullPage" Component={FullPage}>
+          </Route>
+    </Routes>
+   </>
   );
 }
 
 export default App;
+
+
