@@ -29,9 +29,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 650px;
     height: 93px;
     margin-left: 600px;
     margin-right: 600px;
     background: #01C6B2;
     border-radius: 20px;
+    border:none;
+    outline: none;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
 }

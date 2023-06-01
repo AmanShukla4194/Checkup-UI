@@ -8,8 +8,9 @@ const Sidebar = () => {
     <div>
       <div className="details-box">
       <div className="rectangle"> 
-      <a href="/"> 
-      <img src={appointement} alt="app" className='appointement'></img> <h2 >Appointements</h2></a> </div>
+      <a href="https://www.google.com/"> 
+      <img src={appointement} alt="app" className='appointement'></img><h3>Appointements</h3></a> 
+      </div>
     </div>
   </div>
   )

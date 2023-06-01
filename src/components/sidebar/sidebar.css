@@ -10,11 +10,14 @@
   
   .details-box .rectangle
   {
+    display: flex;
     position: absolute;
     width: 295px;
     height: 72px;
     left: 34px;
     top: 129px;
+    align-items: center;
+    justify-content: center;
   
     background: #FFFFFF;
     border-radius: 24px;

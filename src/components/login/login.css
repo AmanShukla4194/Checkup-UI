@@ -1,0 +1,108 @@
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.layer
+{
+height: 322px;
+width: 322px;
+margin-left: 700px;
+margin-top: 60px;
+
+}
+
+.h1{
+position: absolute;
+width: 500px;
+height: 84px;
+left: 635px;
+top: 380px;
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 100px;
+color: #000000;
+}
+
+.form-signin {
+    width:100%;
+    max-width: 500px;
+    padding: 15px;
+    margin-top: 90px; 
+    margin-left: 625px;
+}
+
+
+.form-signin .form-control {
+    margin: 16px 3px;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+    background: #F6F6F6;
+    border: 1.99417px solid #E4E8F1;
+    border-radius: 10.9534px;
+    transition: all 0.3s;
+}
+
+/* .form-signin .form-control:focus {
+    z-index: 2;    /*to hide keep show }*/
+
+
+.form-signin input:focus{
+    border-color: #27ae60;
+    box-shadow: inset 0 0 3px #2fd072;
+}
+
+.form-signin input[type="email"] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; 
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px; 
+}
+
+.form-signin .show
+{
+position: absolute;
+top:82.5%;
+right: 710px;
+/* transform: translateY(-50%); */
+user-select: none;
+cursor: pointer;
+/* display: none; */
+font-family: 'Inria Sans';
+font-style: normal;
+color: #000000;
+}
+
+.form-signin .button
+{
+    width:100%;
+    height: 60px;
+    margin: 20px 0px 10px 0px;
+    background-color: #01C6B2;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s;
+    /* cursor: no-drop; */
+    opacity: 0.7;
+
+}
+
+.form-signin .button:hover
+{
+    background: #219150;
+}
