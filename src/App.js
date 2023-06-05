@@ -1,6 +1,6 @@
 import React from 'react';
 // import Navbar from './components/navbar/Navbar'  for not doing it all separate
-import {First,Login} from './components';
+import {First,Login,Forgotpassword} from './components';
 import FullPage from './pages/FullPage'
 import './App.css'
 
@@ -20,6 +20,8 @@ function App() {
           <Route exact path="/Login" Component={Login}>
           </Route>
           <Route exact path="/FullPage" Component={FullPage}>
+          </Route>
+          <Route exact path="/Forgotpassword" Component={Forgotpassword}>
           </Route>
     </Routes>
    </>
