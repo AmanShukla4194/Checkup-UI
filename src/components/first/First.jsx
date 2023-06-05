@@ -20,7 +20,7 @@ const First = () => {
       <div className='image2' style={{ justifyContent: 'center', flexGrow: 1 }}>
       <img src={CheckupText} alt="vec" width="250" height="75"/>
         </div>
-
+      
       <button className = "footer" type="button" > <Link to="/Login"><h1>Login</h1></Link></button>
     </>
   )

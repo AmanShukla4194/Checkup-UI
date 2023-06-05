@@ -6,6 +6,7 @@ import Checkup from '../../assests/Checkup.png';
 import bell from '../../assests/bell.png';
 import Ellipse1 from '../../assests/Ellipse1.png';
 import Ellipse2 from '../../assests/Ellipse2.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -29,10 +30,10 @@ const Navbar = () => {
   return (
     <>
 <nav className="navbar">
-  <a  href="/">
+  <Link  to="/">
     <img src={Vector1}  alt="logo" className="vector"/>
     <img src={Checkup} alt="Checkup" className="Checkup"/>
-  </a>
+  </Link>
     <div>
     <img src={bell}  alt="Bell" className="Bell"/>
     <img src={Ellipse1} alt="RedDot" className="Ellipse1"/>
@@ -41,19 +42,21 @@ const Navbar = () => {
     <img src={Ellipse2} className='Img' alt="Profile" />
     </div>
     <div className='imgtext'>
-    <h3>Aman Shukla</h3>
+    <h3 className='h3'>Aman Shukla</h3>
     </div>
 
     <div className='dropdown'>
     <img id ="menu-arrow" onClick={openmenu} src={image_url} alt="Menu"/>
     </div>
-    <div className="menu">
-      {state && <ul>
-      <li><button onClick={openmenu}>Sign Out</button></li><hr/>
-      <li><button onClick={openmenu}>Edit Profile</button></li>
-  </ul>}
-  </div>
 </nav>
+<div className='dropdown'>
+    <div className="menu">
+      { state && <ul>
+      <li><button onClick={openmenu}><Link to="/">Sign out</Link></button></li><hr></hr>
+      <li><button onClick={openmenu}><Link to="/">Edit Profile</Link></button></li>
+  </ul> }
+  </div> 
+</div>
 </>
 )
 }

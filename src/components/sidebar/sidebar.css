@@ -8,7 +8,7 @@
     background: #01C6B2;
   }
   
-  .details-box .rectangle
+  .details-box .rectangle1
   {
     display: flex;
     position: absolute;
@@ -22,8 +22,22 @@
     background: #FFFFFF;
     border-radius: 24px;
   }
+  .details-box .rectangle2
+  {
+    display: flex;
+    position: absolute;
+    width: 295px;
+    height: 72px;
+    left: 34px;
+    top: 258px;
+    align-items: center;
+    justify-content: center;
   
-  .rectangle .appointement
+    background: #FFFFFF;
+    border-radius: 24px;
+  }
+  
+  .rectangle1 .appointement
   {
     position: absolute;
     left: 7.07%;
@@ -34,4 +48,15 @@
     background: #eeeaea;
   }
   
+  .rectangle2 .patient
+  {
+    position: absolute;
+    width: 20px;
+    height: 22.36px;
+    left: 23px;
+    top: 23px;
+    background-color: black;
+  }
+
+
   
