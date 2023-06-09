@@ -1,7 +1,6 @@
 import React from 'react';
 // import Navbar from './components/navbar/Navbar'  for not doing it all separate
-import {First,Login,Forgotpassword} from './components';
-import FullPage from './pages/FullPage'
+import {First,Login,Forgotpassword,FullPage, AppFullPage} from './components';
 import './App.css'
 
 import {
@@ -19,9 +18,11 @@ function App() {
           </Route>
           <Route exact path="/Login" Component={Login}>
           </Route>
+          <Route exact path="/Forgotpassword" Component={Forgotpassword}>
+          </Route>
           <Route exact path="/FullPage" Component={FullPage}>
           </Route>
-          <Route exact path="/Forgotpassword" Component={Forgotpassword}>
+          <Route exact path="/AppFullPage" Component={AppFullPage}>
           </Route>
     </Routes>
    </>
