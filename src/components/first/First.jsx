@@ -4,8 +4,6 @@ import Vector1 from '../../assests/Vector1.png'
 import CheckupText from '../../assests/CheckupText.png'
 import {Link} from "react-router-dom"; 
 
-
-
 const First = () => {
   return (
     <>
@@ -21,9 +19,8 @@ const First = () => {
       <img src={CheckupText} alt="vec" width="250" height="75"/>
         </div>
       
-      <button className = "footer" type="button" > <Link to="/Login"><h1>Login</h1></Link></button>
+      <button className = "footer" type="button" > <Link to="/FullPage"><h1>Login</h1></Link></button>
     </>
   )
 }
-
 export default First

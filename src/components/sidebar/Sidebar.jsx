@@ -10,7 +10,7 @@ const Sidebar = () => {
     <>
       <div className="details-box">
       <div className="rectangle1"> 
-      <Link to="https://www.google.com/"> 
+      <Link to='/AppFullPage'> 
       <img src={appointement} alt="app" className='appointement'></img><h3>Appointements</h3></Link> 
       </div>
       <div className="rectangle2"> 
